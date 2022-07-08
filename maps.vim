@@ -40,4 +40,7 @@ nmap <Leader>s <Plug>(easymotion-s2)
 map <Leader>c :VCoolor<CR>
 
 " open terminal below all splits
-cabbrev bterm bo term
+cabbrev bterm bo merm
+
+" open file in firefox
+nnoremap <F12>f :exe ':silent !firefox %'<CR>
